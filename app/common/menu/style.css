@@ -1,0 +1,14 @@
+.CommonMenu{
+	margin-bottom: 10px;
+	color:  green;
+}
+
+.CommonMenu a{
+	padding: 4px;
+}
+
+.CommonMenu .Selected{
+	color: white;
+	pointer-events: none;
+	background: var(--color-link);
+}

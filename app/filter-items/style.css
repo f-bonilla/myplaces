@@ -1,0 +1,28 @@
+.FilterItems{
+	width: 100%;
+	height: 100%;
+	max-width: 100%;
+  margin-top: 16px;
+}
+
+.FilterItems input[type="text"], .FilterItems select{
+	width: 100%;
+	max-width: 100%;
+}
+
+.FilterItems input[type="radio"]{
+	/*margin-left: 8px;*/
+}
+
+.FilterItems input[type="text"], .FilterItems textarea, .FilterItems select{
+	width: 100%;
+	max-width: 100%;
+}
+
+.FilterItems #checkboxes{
+	display: flex;
+	flex-wrap: wrap;
+}
+.FilterItems #checkboxes div{	
+	margin-left: 6px;
+}

@@ -1,0 +1,10 @@
+{
+  "lang": "es",
+  "translation": {
+    "change_language": "Cambiar idioma",
+    "welcome": "Bienvenido",
+    "filter_items": "Filtrar",
+    "new_item": "Añadir sitio",
+    "place_exists": "Ya existe un lugar con ese nombre."
+  }
+}

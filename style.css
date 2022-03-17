@@ -1,0 +1,12 @@
+textarea{
+  width: 300px;
+}
+
+textarea:invalid:required, form input:invalid:required {
+  border: 1px dashed red;
+  color: red;
+}
+
+textarea:valid, form input:valid {
+  border: 1px dashed var(--color);
+}

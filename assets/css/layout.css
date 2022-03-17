@@ -1,0 +1,43 @@
+:root {
+  --main-bg-color: brown;
+}
+
+* {box-sizing: border-box;}
+html, body{
+	margin:  0px;
+	padding: 0px;
+	overflow: hidden;
+	width: calc(100vw);
+	max-width: calc(100vw);
+	cursor: default;
+	display: flex;
+}
+html{
+	height: calc(100vh);
+	max-height: calc(100vh);
+}
+header, main, footer{	
+	max-width: inherit;
+	margin:  0px;
+	padding:  0px;
+}
+
+
+#top-wraper{
+	display: inherit;
+	flex-direction: column;
+}
+#middle-wraper{
+	display: flex;
+	flex-grow: 1;
+	overflow: inherit;
+}
+	#left-wraper{}
+	#center-wraper{
+		display: inherit;
+		flex-grow: 1;
+		flex-direction: column;
+		overflow: auto;
+	}
+	#right-wraper{}
+#bottom-wraper{}

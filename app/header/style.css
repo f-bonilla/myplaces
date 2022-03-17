@@ -1,0 +1,36 @@
+.Header{	
+	font-weight: bold;
+	padding-top: 6px;
+	padding-bottom: 10px;
+	background-color: #e9e9ed;
+}
+.Header hr{
+	margin: 0px;
+	align-self: center;
+	background-color: black;
+}
+
+.Header #top{
+	display: flex;
+	flex-flow: column;
+}
+
+.Header #header-buttons{
+	display: flex;
+}
+
+.HeaderButton{
+	display:  inherit;
+	align-items: center;
+}
+.HeaderButton img:hover{
+	background-color: #cee5fa;
+}
+.HeaderButton img:active{
+	background-color: transparent;
+}
+.HeaderButton img{
+	width: 30px;
+	height: 30px;
+	padding: 2px;
+}

@@ -1,0 +1,64 @@
+<div id="item" class="ItemForm">
+  <form id="item-form">
+    <label for="name"><span data-lang="name">nombre</span> *</label>
+    <input  id="name"type="text" maxlength="100" required>
+
+    <label for="address"><span data-lang="address">direccion</span> *</label>
+    <input  id="address"type="text" maxlength="125" required>
+
+    <label for="description"><span data-lang="description">descripcion</span> *</label>
+    <textarea  id="description" rows="5" cols="255" maxlength="255" required></textarea>
+
+    <label for="image"><span data-lang="image">image</span> *</label>
+    <input  id="image"type="text" maxlength="160" required>
+
+    <label for="phone"><span data-lang="phone">phone</span></label>
+    <input  id="phone"type="text" maxlength="9">
+
+    <label for="email"><span data-lang="email">email</span></label>
+    <input  id="email"type="text" maxlength="60">
+
+    <label for="web"><span data-lang="web">web</span></label>
+    <input  id="web"type="text" maxlength="125">
+
+		<label for="state"><span data-lang="state">estado</span> *</label>
+    <div id="state-radio-buttons">
+      <div>      
+        <input type="radio" name="state" id="visited" value="10">
+        <label for="visited" data-lang="visited">visitado</label>
+      </div>
+      <div>
+        <input type="radio" name="state" id="wishlist" value="15">
+        <label for="wishlist" data-lang="wishlist">quiero ir</label>
+      </div>
+      <div>
+        <input type="radio" name="state" id="unknow" value="20" checked>
+        <label for="unknow" data-lang="unknow">desconocido</label>
+      </div>
+    </div>
+
+		<label for="province"><span data-lang="province">provincia</span> *</label>
+    <select id="province" required></select>
+    <label for="locality"><span data-lang="locality">localidad</span> *</label>
+    <select id="locality" required></select>
+
+    <label for="category"><span data-lang="category">categoria</span> *</label>
+    <select id="category" required></select>
+    <label for="sub-category"><span data-lang="sub_category">subcategoria</span> *</label>
+    <select id="sub-category" required></select>
+    
+    <label for="share"><span data-lang="share">Compartir:</span> *</label>
+    <div>
+      <div>
+        <input type="radio" name="share" id="public" value="1">
+        <label for="public" data-lang="yes">si</label>
+      </div>
+      <div>
+        <input type="radio" name="share" id="private" value="0" checked>
+        <label for="private" data-lang="no">no</label>
+      </div>
+    </div>
+    <button type="submit"><span data-lang="save">guardar</span></button>
+    <button type="button" class="CancelButton" data-lang="cancel">cancelar</button>
+  </form>
+</div>

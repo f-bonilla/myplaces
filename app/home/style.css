@@ -1,0 +1,14 @@
+.Home{
+	
+	width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#home-header{
+	display: flex;
+}
+
+#home-menu{
+	flex-grow: 1;
+}

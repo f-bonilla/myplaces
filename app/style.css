@@ -1,0 +1,22 @@
+.App{	
+	margin: 10px;
+	padding: inherit;
+	overflow: inherit;
+	width: inherit;
+	display: inherit;
+	flex-direction: column;	
+}
+
+.App #app-menu-language, .App #app-login{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.App #right-wraper{
+	overflow-y: auto;
+}
+
+.App #left-wraper{
+	width:  auto;
+	max-width:  100%;
+}

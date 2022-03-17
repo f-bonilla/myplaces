@@ -1,0 +1,59 @@
+.ItemsList{
+  margin-top: 16px;
+}
+
+.ItemsList #detail-content{
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.ItemsList details{
+  /*background-color: aliceblue;*/
+  margin: 0px 0px 16px 0px;
+  /*background-color: beige;*/
+  border: 1px dashed #3d9ef8;
+}
+
+.ItemsList details summary{
+	list-style: none;
+  padding: 4px;
+}
+.ItemsList details summary:hover{
+  background-color: #e9e9ed;
+}
+
+
+.ItemsList details p{
+  display: flex;
+  flex-flow: column;
+}
+
+.ItemsList details summary::-webkit-details-marker {
+  display:none;
+  color:  red;
+}
+
+.ItemsList details summary div{
+  display: flex;
+  /*margin-left: 4px;*/
+}
+
+.ItemsList details summary div div{
+  flex-flow: column;
+}
+
+.ItemsList details summary div a{
+  display: flex;
+}
+.ItemsList details summary div a img{
+  background-color: #f6f6f6;
+  padding: 2px;
+}
+
+
+.ItemName, .ItemAddress{
+  margin-left: 6px;
+}
+.ItemAddress{
+  font-weight: normal;
+}
